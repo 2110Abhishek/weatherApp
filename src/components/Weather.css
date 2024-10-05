@@ -1,0 +1,18 @@
+.weatherResult {
+    margin-top: 20px;
+    background-color: #ffffff; /* White background for results */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .weatherResult:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+  }
+  
+  .weather-icon {
+    width: 80px; /* Adjust icon size */
+    height: 80px;
+  }
+  
